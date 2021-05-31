@@ -31,7 +31,7 @@ export const links = [
   {
     label: "Certik Audit (In-Progress)",
     icon: "ShieldIcon",
-    href: "https://twitter.com/matrixdefi/status/1367218225310818308",
+    href: "https://twitter.com/matrix_defi/status/1367218225310818308",
     target: "_blank",
   },
   {
@@ -115,7 +115,7 @@ export const links = [
       },
       {
         label: "Docs",
-        href: "https://matrixdefi-1.gitbook.io/matrixdefi/",
+        href: "https://matrixdefi.gitbook.io/matrixdefi/",
       },
       {
         label: "Blog",
@@ -136,14 +136,14 @@ export const socials = [
       },
       {
         label: "Announcements",
-        href: "https://t.me/MatrixDefi",
+        href: "https://t.me/matrix_defi1 ",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/matrixdefi",
+    href: "https://twitter.com/matrix_defi",
   },
 ];
 
