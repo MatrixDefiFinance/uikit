@@ -2351,16 +2351,7 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/MatrixDefiChat",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/matrix_defi1 ",
-            },
-        ],
+        href: "https://t.me/MatrixDefi",
     },
     {
         label: "Twitter",
@@ -2491,9 +2482,17 @@ var SocialLinks = function () { return (React.createElement(Flex, null, socials.
     var Icon = Icons$1[social.icon];
     var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
     var mr = index < socials.length - 1 ? "24px" : 0;
-    if (social.items) {
-        return (React.createElement(Dropdown, { key: social.label, position: "top", target: React.createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React.createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
-    }
+    // if (social.items) {
+    //   return (
+    //     <Dropdown key={social.label} position="top" target={<Icon {...iconProps} mr={mr} />}>
+    //       {social.items.map((item) => (
+    //         <Link external key={item.label} href={item.href} aria-label={item.label} color="textSubtle">
+    //           {item.label}
+    //         </Link>
+    //       ))}
+    //     </Dropdown>
+    //   );
+    // }
     return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
         React.createElement(Icon, __assign({}, iconProps))));
 }))); };

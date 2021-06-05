@@ -129,16 +129,17 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/MatrixDefiChat",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/matrix_defi1 ",
-      },
-    ],
+    href: "https://t.me/MatrixDefi",
+    // items: [
+    //   {
+    //     label: "English",
+    //     href: "https://t.me/MatrixDefiChat",
+    //   },
+    //   {
+    //     label: "Announcements",
+    //     href: "https://t.me/matrix_defi1 ",
+    //   },
+    // ],
   },
   {
     label: "Twitter",
