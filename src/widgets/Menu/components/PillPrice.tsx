@@ -5,7 +5,7 @@ import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
 interface Props {
-  cakePriceUsd?: number;
+  pillPriceUsd?: number;
 }
 
 const PriceLink = styled.a`
@@ -21,15 +21,15 @@ const PriceLink = styled.a`
   }
 `;
 
-const CakePrice: React.FC<Props> = ({ cakePriceUsd }) => {
-  return cakePriceUsd ? (
-    <PriceLink href="https://dex.guru/token/0xB1C3A4Bc2A6745aF8978e80C237ea2B964e29605-bsc" target="_blank">
+const PillPrice: React.FC<Props> = ({ pillPriceUsd }) => {
+  return pillPriceUsd ? (
+    <PriceLink href="https://dex.guru/token/0x744a23936DcB894996BDe50e94CF846471e479f6-bsc" target="_blank">
       <PancakeRoundIcon width="24px" mr="8px" />
-      <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color="textSubtle" bold>{`$${pillPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />
   );
 };
 
-export default React.memo(CakePrice);
+export default React.memo(PillPrice);

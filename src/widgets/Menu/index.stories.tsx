@@ -28,7 +28,7 @@ const useProps = () => {
     langs,
     setLang: noop,
     currentLang: "EN",
-    cakePriceUsd: 24.023158668932877668,
+    pillPriceUsd: 24.023158668932877668,
     links,
     profile: null,
   });
@@ -44,7 +44,7 @@ const useProps = () => {
         langs,
         setLang: noop,
         currentLang: "EN",
-        cakePriceUsd: 24.023158668932877668,
+        pillPriceUsd: 24.023158668932877668,
         links,
         profile: null,
       });
@@ -128,7 +128,7 @@ export const WithNoProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        pillPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           profileLink: "/profile",
@@ -170,7 +170,7 @@ export const WithProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={0.23158668932877668}
+        pillPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           username: "pancakeswap",
