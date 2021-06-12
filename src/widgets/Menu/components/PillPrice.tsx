@@ -25,7 +25,7 @@ const PillPrice: React.FC<Props> = ({ pillPriceUsd }) => {
   return pillPriceUsd ? (
     <PriceLink href="https://dex.guru/token/0x744a23936DcB894996BDe50e94CF846471e479f6-bsc" target="_blank">
       <PancakeRoundIcon width="24px" mr="8px" />
-      <Text color="textSubtle" bold>{`$${pillPriceUsd.toFixed(3)}`}</Text>
+      <Text color="textSubtle" bold>{`$${pillPriceUsd.toFixed(4)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />

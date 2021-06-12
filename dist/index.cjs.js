@@ -2485,7 +2485,7 @@ var PillPrice = function (_a) {
     var pillPriceUsd = _a.pillPriceUsd;
     return pillPriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://dex.guru/token/0x744a23936DcB894996BDe50e94CF846471e479f6-bsc", target: "_blank" },
         React__default['default'].createElement(Icon$x, { width: "24px", mr: "8px" }),
-        React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + pillPriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
+        React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + pillPriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
 var PillPrice$1 = React__default['default'].memo(PillPrice);
 var templateObject_1$F;
